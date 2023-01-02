@@ -37,7 +37,7 @@ public class GT_Verification {
 		
 		
 		SoftAssert Assert = new SoftAssert();
-		
+		System.out.println("HEllo");
 		Assert.assertEquals(prop.getProperty("92.22.13"), BOprop.getProperty("92.22.13"));
 		Assert.assertEquals(prop.getProperty("92.22.12"), BOprop.getProperty("92.22.12"));
 		Assert.assertEquals(prop.getProperty("92.22.15"), BOprop.getProperty("92.22.15"));
